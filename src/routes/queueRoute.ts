@@ -103,7 +103,7 @@ const generateAIText = async (
 
 			ollamaResponse.on("end", () => {
 				notify("stream ended succsessfully", 200, true);
-				resolve("");
+				console.log(userId + "`s stream ended succsessfully");
 			});
 			ollamaResponse.on("close", () => {
 				console.log(userId + "`s ai response closed");
