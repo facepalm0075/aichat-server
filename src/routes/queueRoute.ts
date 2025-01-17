@@ -144,7 +144,7 @@ router.use((req: customReq, res: Response, next: NextFunction) => {
 	next();
 });
 
-const aiQueue = new AIModelQueue(1, 1);
+const aiQueue = new AIModelQueue(1, 1); // first one is the number of concurrent requests, second one is the queue size
 
 router.post("/", (req: customReq, res: Response) => {
 	res.setHeader("Content-Type", "text/event-stream");
