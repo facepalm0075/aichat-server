@@ -6,7 +6,7 @@ This is the backend for an AI chatbot that receives user prompts, manages concur
 
 Frontend Code: [aichat-platform](https://github.com/facepalm0075/aichat-platform)
 
-## Live Test: [aichat.pouya](https://aichat.pouyaprogramming.ir/)
+Live Test: [aichat.pouya](https://aichat.pouyaprogramming.ir/)
 
 ## Features
 
